@@ -27,18 +27,17 @@
 
 ## 🔧 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) 🔧
 
-1. Right Click on Address Record
-2. Select **Find out what writes to this address**
-3. Press on **More information**
+1. Read the Address
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_1.png)
 
+2. **Check Checkbox Hex** and put the Address in it
+
+![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
 ## 🔧 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) 🔧
 
-1. Right Click on Address Record
-2. Select **Find out what writes to this address**
-3. Press on **More information**
+1. Get the Address
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value.png)
 
@@ -51,3 +50,7 @@
 1. Click on Add Address Manually
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually.png)
+
+2. Add Address, if needed with Offsets
+
+![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_3.png)
