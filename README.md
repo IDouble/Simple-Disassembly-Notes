@@ -1,5 +1,5 @@
 # ⚙️ Simple Disassembly Notes 🔧
-⚙️ Simple Step to Step Tutorials for disassembling 🔧
+⚙️ Simple Step to Step Tutorials for Disassembling / Code Injection & getting Pointer Addresses 🔧
 
 ## 🔧 Get Pointer Address from Value 🔧
 
@@ -25,7 +25,7 @@
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Replace_the_Assembly_Code_with_Code_that_does_Nothing_2.png)
 
-## 🔧 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) 🔧
+## 🔍 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) 🔍
 
 1. Read the Address
 
@@ -36,7 +36,7 @@
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
-## 🔧 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) 🔧
+## 🔍 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) 🔍
 
 1. Get the Address
 
@@ -46,7 +46,7 @@
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_2.png)
 
-## 🔧 Add Pointer Address manually 🔧
+## ⚙️ Add Pointer Address manually ⚙️
 
 1. Click on Add Address Manually
 
@@ -54,8 +54,21 @@
 
 2. Add Address, if needed with Offsets
 
-![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_3.png)
+![Add Pointer Address manually](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_3.png)
 
 3. The Result should look like this:
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually_2.png)
+
+
+## 🛠 Code Injection 🛠
+
+1. Right Click on Address Record
+2. Select **Find out what writes to this address**
+3. Press **Show disassembler**
+![Code Injection](Images/Code_Injection.png)
+4. Click on **Tools** and select **Auto Assemble**
+![Code Injection](Images/Code_Injection_2.png)
+5. Click on **Template** and select **Code Injection**
+![Code Injection](Images/Code_Injection_3.png)
+6. Click on **OK**
