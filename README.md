@@ -66,9 +66,21 @@
 1. Right Click on Address Record
 2. Select **Find out what writes to this address**
 3. Press **Show disassembler**
+
 ![Code Injection](Images/Code_Injection.png)
+
 4. Click on **Tools** and select **Auto Assemble**
+
 ![Code Injection](Images/Code_Injection_2.png)
+
 5. Click on **Template** and select **Code Injection**
+
 ![Code Injection](Images/Code_Injection_3.png)
+
 6. Click on **OK**
+7. **Comment out** as an ex. //sub dword ptr [rsi+00000780],01 (value - 1)
+8. **Write** as an ex. add dword ptr [rsi+00000780],01 (value + 1)
+
+![Code Injection](Images/Code_Injection_4.png)
+
+9. Press on Execute **Write** and then click OK and it's Done!
