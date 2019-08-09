@@ -4,10 +4,10 @@ label(originalcode)
 label(exit)
 
 newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
+add dword ptr [rsi+00000780],01
 
 originalcode:
-sub dword ptr [rsi+00000780],01
+//sub dword ptr [rsi+00000780],01
 
 exit:
 jmp returnhere
