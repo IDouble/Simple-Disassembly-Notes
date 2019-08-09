@@ -21,3 +21,6 @@
 
 ![Get the Pointer Address from the Pointer of the Value ](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value.png)
 
+4. The **Address** to the Pointer is in this ex. 011DC7A0
+
+![Get the Pointer Address from the Pointer of the Value ](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_2.png)
