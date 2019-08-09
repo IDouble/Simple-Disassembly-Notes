@@ -83,4 +83,4 @@
 
 ![Code Injection](Images/Code_Injection_4.png)
 
-9. Press on Execute **Write** and then click OK and it's Done!
+9. Press on **Execute** and then click OK and it's Done!
