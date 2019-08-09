@@ -32,6 +32,7 @@
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_1.png)
 
 2. **Check Checkbox Hex** and put the Address in it
+3. The **Address** to the Pointer is in this ex. 1002CBA40
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
@@ -54,3 +55,7 @@
 2. Add Address, if needed with Offsets
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_3.png)
+
+3. The Result should look like this:
+
+![Add Pointer Address manually](Images/Add_Pointer_Address_manually_2.png)
