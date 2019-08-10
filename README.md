@@ -38,11 +38,12 @@
 
 ## 🔍 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) 🔍
 
-1. Get the Address
+1. Select **Find out what writes to this address**
+2. Press on **More information**
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value.png)
 
-4. The **Address** to the Pointer is in this ex. 011DC7A0
+3. The **Address** to the Pointer is in this ex. 011DC7A0
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_2.png)
 
