@@ -83,11 +83,11 @@
 
 ## ⚙️ Add Pointer Address manually (level-1 pointer) ⚙️
 
-1. Click on Add Address Manually
+1. Click on **Add Address Manually**
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually.png)
 
-2. Add Address, if needed with Offsets
+2. Add Address, if needed with Offsets and click **OK**
 
 ![Add Pointer Address manually](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_3.png)
 
@@ -98,11 +98,11 @@
 
 ## ⚙️ Add Pointer Address manually (level-4 pointer) ⚙️
 
-1. Click on Add Address Manually
+1. Click on **Add Address Manually**
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually.png)
 
-2. Add Address, if needed with Offsets
+2. Add Address, if needed with Offsets and click **OK**
 
 ![Add Pointer Address manually](Images/Get_the_base_Address_from_a_multilevel_pointer_2.png)
 
