@@ -52,7 +52,7 @@
 1. Right Click on Address Record
 2. Select **Find out what accesses this address**
 
-![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_1.png)
+![Get the base Address from a multilevel pointer level-4](Images/Get_the_base_Address_from_a_multilevel_pointer.png)
 
 2. **Check Checkbox Hex** and put the Address in it
 3. The **Address** to the Pointer is in this ex. 1002CBA40
