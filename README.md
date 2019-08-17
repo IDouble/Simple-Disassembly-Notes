@@ -79,8 +79,7 @@
 3. calculate the Address with using the Offset ex. -> (***01188070*** -> **1168A60** + 0x18 = 01168A78)
 4. **Check Checkbox Hex** and put the Address in it (ex. **1168A60**)
 5. The **Address** to the Pointer is in this ex. ***01188070***
-
-6. Repeat Step 1 to 5 until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
+6. **Repeat Step 1 to 5** until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
 
 ## ⚙️ Add Pointer Address manually ⚙️
 
