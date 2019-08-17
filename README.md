@@ -49,15 +49,34 @@
 
 ## 🔍 Get the base Address from a multilevel pointer (level-4 pointer) 🔍
 
+### Example of a level-4 pointer
+
+**0x18** = Offset
+
+-> = points to
+
+01168A78 = Value = 2765
+
+01188070 -> 1168A60 + **0x18** = 01168A78
+
+01168A18 -> 01188070 + **0** = 01188070
+
+011681D0 -> 1168A00 + **0x18** = 01168A18
+
+"Tutorial-x86_64.exe" + *2CBA70* -> 11681C0 + **0x10** = 011681D0
+
+### How to find out each base pointer with its offsets until you get to the static base address
+
 1. Right Click on Address Record
 2. Select **Find out what accesses this address**
 
-![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_1.png)
+![Get the base Address from a multilevel pointer level-4](Images/Get_the_base_Address_from_a_multilevel_pointer.png)
 
-2. **Check Checkbox Hex** and put the Address in it
-3. The **Address** to the Pointer is in this ex. 1002CBA40
+3. calculate the Address with using the Offset ex. -> (***01188070*** -> **1168A60** + 0x18 = 01168A78)
+4. **Check Checkbox Hex** and put the Address in it (ex. **1168A60**)
+5. The **Address** to the Pointer is in this ex. ***01188070***
 
-![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
+6. Repeat Step 1 to 5 until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
 
 ## ⚙️ Add Pointer Address manually ⚙️
 
@@ -72,7 +91,6 @@
 3. The Result should look like this:
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually_2.png)
-
 
 ## 🛠 Code Injection 🛠
 
