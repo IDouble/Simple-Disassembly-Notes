@@ -91,7 +91,6 @@
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually_2.png)
 
-
 ## 🛠 Code Injection 🛠
 
 1. Right Click on Address Record
