@@ -49,7 +49,9 @@
 
 ## 🔍 Get the base Address from a multilevel pointer (level-4 pointer) 🔍
 
-### Example of a level-4 pointer
+### ➡️ Example of a level-4 pointer ➡️
+
+![Get the base Address from a multilevel pointer level-4 Example](Images/Get_the_base_Address_from_a_multilevel_pointer_2.png)
 
 **0x18** = Offset
 
@@ -65,7 +67,7 @@
 
 "Tutorial-x86_64.exe" + *2CBA70* -> 11681C0 + **0x10** = 011681D0
 
-### How to find out each base pointer with its offsets until you get to the static base address
+### 🔍 How to find out each base pointer with its offsets until you get to the static base address 🔍
 
 1. Right Click on Address Record
 2. Select **Find out what accesses this address**
