@@ -81,7 +81,7 @@
 5. The **Address** to the Pointer is in this ex. ***01188070***
 6. **Repeat Step 1 to 5** until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
 
-## ⚙️ Add Pointer Address manually ⚙️
+## ⚙️ Add Pointer Address manually (level-1 pointer) ⚙️
 
 1. Click on Add Address Manually
 
@@ -94,6 +94,21 @@
 3. The Result should look like this:
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually_2.png)
+
+
+## ⚙️ Add Pointer Address manually (level-4 pointer) ⚙️
+
+1. Click on Add Address Manually
+
+![Add Pointer Address manually](Images/Add_Pointer_Address_manually.png)
+
+2. Add Address, if needed with Offsets
+
+![Add Pointer Address manually](Images/Get_the_base_Address_from_a_multilevel_pointer_2.png)
+
+3. The Result should look like this:
+
+![Add Pointer Address manually](Images/Get_the_base_Address_from_a_multilevel_pointer_3.png)
 
 ## 🛠 Code Injection 🛠
 
