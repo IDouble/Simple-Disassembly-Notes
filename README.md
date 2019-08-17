@@ -53,19 +53,23 @@
 
 ![Get the base Address from a multilevel pointer level-4 Example](Images/Get_the_base_Address_from_a_multilevel_pointer_2.png)
 
+*01168A78* = Address / base pointer (base ptr)
+
 **0x18** = Offset
+
+***"Tutorial-x86_64.exe" + 2CBA70*** = static base address
 
 -> = points to
 
-01168A78 = Value = 2765
+*01168A78* = Value = 2765
 
-01188070 -> 1168A60 + **0x18** = 01168A78
+*01188070* -> *1168A60* + **0x18** = *01168A78*
 
-01168A18 -> 01188070 + **0** = 01188070
+*01168A18* -> *01188070* + **0** = *01188070*
 
-011681D0 -> 1168A00 + **0x18** = 01168A18
+*011681D0* -> *1168A00* + **0x18** = *01168A18*
 
-"Tutorial-x86_64.exe" + *2CBA70* -> 11681C0 + **0x10** = 011681D0
+***"Tutorial-x86_64.exe" + 2CBA70*** -> *11681C0* + **0x10** = *011681D0*
 
 ![Get the base Address from a multilevel pointer level-4 Example](Images/Get_the_base_Address_from_a_multilevel_pointer_3.png)
 
