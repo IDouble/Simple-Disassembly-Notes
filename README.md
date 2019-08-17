@@ -25,7 +25,7 @@
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Replace_the_Assembly_Code_with_Code_that_does_Nothing_2.png)
 
-## 🔍 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) 🔍
+## 🔍 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) (level-1 pointer) 🔍
 
 1. Read the Address
 
@@ -36,15 +36,28 @@
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
-## 🔍 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) 🔍
+## 🔍 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) (level-1 pointer) 🔍
 
-1. Get the Address
+1. Select **Find out what writes to this address**
+2. Press on **More information**
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value.png)
 
-4. The **Address** to the Pointer is in this ex. 011DC7A0
+3. The **Address** to the Pointer is in this ex. 011DC7A0
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_2.png)
+
+## 🔍 Get the base Address from a multilevel pointer (level-4 pointer) 🔍
+
+1. Right Click on Address Record
+2. Select **Find out what accesses this address**
+
+![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_1.png)
+
+2. **Check Checkbox Hex** and put the Address in it
+3. The **Address** to the Pointer is in this ex. 1002CBA40
+
+![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
 ## ⚙️ Add Pointer Address manually ⚙️
 
