@@ -76,7 +76,7 @@
 4. **Check Checkbox Hex** and put the Address in it (ex. **1168A60**)
 5. The **Address** to the Pointer is in this ex. ***01188070***
 
-![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
+6. Repeat Step 1 to 5 until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
 
 ## ⚙️ Add Pointer Address manually ⚙️
 
