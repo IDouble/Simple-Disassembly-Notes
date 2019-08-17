@@ -72,8 +72,9 @@
 
 ![Get the base Address from a multilevel pointer level-4](Images/Get_the_base_Address_from_a_multilevel_pointer.png)
 
-2. **Check Checkbox Hex** and put the Address in it
-3. The **Address** to the Pointer is in this ex. 1002CBA40
+3. calculate the Address with using the Offset ex. -> (***01188070*** -> **1168A60** + 0x18 = 01168A78)
+4. **Check Checkbox Hex** and put the Address in it (ex. **1168A60**)
+5. The **Address** to the Pointer is in this ex. ***01188070***
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
