@@ -25,7 +25,7 @@
 
 ![Get the Pointer Address from the Pointer of the Value](Images/Replace_the_Assembly_Code_with_Code_that_does_Nothing_2.png)
 
-## 🔍 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) 🔍
+## 🔍 Get the Pointer Address from the Pointer of the Value (Way 1 : easier) (level-1 pointer) 🔍
 
 1. Read the Address
 
@@ -36,7 +36,7 @@
 
 ![Get the Pointer Address from the Pointer of the Value easier](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_2.png)
 
-## 🔍 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) 🔍
+## 🔍 Get the Pointer Address from the Pointer of the Value (Way 2 : harder) (level-1 pointer) 🔍
 
 1. Select **Find out what writes to this address**
 2. Press on **More information**
