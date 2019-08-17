@@ -51,17 +51,19 @@
 
 ### Example of a level-4 pointer
 
+**0x18** = Offset
+
 -> = points to
 
 01168A78 = Value = 2765
 
-01188070 -> 1168A60 + 0x18 = 01168A78
+01188070 -> 1168A60 + **0x18** = 01168A78
 
-01168A18 -> 01188070 + 0 = 01188070
+01168A18 -> 01188070 + **0** = 01188070
 
-011681D0 -> 1168A00 + 0x18 = 01168A18
+011681D0 -> 1168A00 + **0x18** = 01168A18
 
-"Tutorial-x86_64.exe" + 2CBA70 -> 11681C0 + 0x10 = 011681D0
+"Tutorial-x86_64.exe" + *2CBA70* -> 11681C0 + **0x10** = 011681D0
 
 ### How to find out each base pointer with its offsets until you get to the static base address
 
