@@ -53,19 +53,25 @@
 
 ![Get the base Address from a multilevel pointer level-4 Example](Images/Get_the_base_Address_from_a_multilevel_pointer_2.png)
 
+*01168A78* = Address / base pointer (base ptr)
+
 **0x18** = Offset
+
+***"Tutorial-x86_64.exe" + 2CBA70*** = static base address
 
 -> = points to
 
-01168A78 = Value = 2765
+*01168A78* = Value = 2765
 
-01188070 -> 1168A60 + **0x18** = 01168A78
+*01188070* -> *1168A60* + **0x18** = *01168A78*
 
-01168A18 -> 01188070 + **0** = 01188070
+*01168A18* -> *01188070* + **0** = *01188070*
 
-011681D0 -> 1168A00 + **0x18** = 01168A18
+*011681D0* -> *1168A00* + **0x18** = *01168A18*
 
-"Tutorial-x86_64.exe" + *2CBA70* -> 11681C0 + **0x10** = 011681D0
+***"Tutorial-x86_64.exe" + 2CBA70*** -> *11681C0* + **0x10** = *011681D0*
+
+![Get the base Address from a multilevel pointer level-4 Example](Images/Get_the_base_Address_from_a_multilevel_pointer_3.png)
 
 ### 🔍 How to find out each base pointer with its offsets until you get to the static base address 🔍
 
@@ -74,25 +80,39 @@
 
 ![Get the base Address from a multilevel pointer level-4](Images/Get_the_base_Address_from_a_multilevel_pointer.png)
 
-3. calculate the Address with using the Offset ex. -> (***01188070*** -> **1168A60** + 0x18 = 01168A78)
+3. Calculate the Address using the Offset ex. -> (***01188070*** -> **1168A60** + 0x18 = 01168A78)</br> 
+Calculation (hex) : *(01168A78 - 18 = 01168A60 = **1168A60**)*
 4. **Check Checkbox Hex** and put the Address in it (ex. **1168A60**)
 5. The **Address** to the Pointer is in this ex. ***01188070***
+6. **Repeat Step 1 to 5** until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
 
-6. Repeat Step 1 to 5 until you get the static base Address, in this ex. ***"Tutorial-x86_64.exe" + 2CBA70***
+## ⚙️ Add Pointer Address manually (level-1 pointer) ⚙️
 
-## ⚙️ Add Pointer Address manually ⚙️
-
-1. Click on Add Address Manually
+1. Click on **Add Address Manually**
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually.png)
 
-2. Add Address, if needed with Offsets
+2. Add Address, if needed with Offsets and click **OK**
 
 ![Add Pointer Address manually](Images/Get_the_Pointer_Address_from_the_Pointer_of_the_Value_easier_3.png)
 
 3. The Result should look like this:
 
 ![Add Pointer Address manually](Images/Add_Pointer_Address_manually_2.png)
+
+## ⚙️ Add Pointer Address manually (level-4 pointer) ⚙️
+
+1. Click on **Add Address Manually**
+
+![Add Pointer Address manually](Images/Add_Pointer_Address_manually.png)
+
+2. Add Address, if needed with Offsets and click **OK**
+
+![Add Pointer Address manually](Images/Get_the_base_Address_from_a_multilevel_pointer_2.png)
+
+3. The Result should look like this:
+
+![Add Pointer Address manually](Images/Get_the_base_Address_from_a_multilevel_pointer_3.png)
 
 ## 🛠 Code Injection 🛠
 
