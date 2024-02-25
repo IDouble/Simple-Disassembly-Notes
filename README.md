@@ -137,3 +137,5 @@ Calculation (hex) : (01168A78 - 18 = 01168A60 = **1168A60**)
 ![Code Injection](Images/Code_Injection_4.png)
 
 9. Press on **Execute** and then click OK and it's Done!
+
+![Binance Ready to give crypto a try ? buy bitcoin and other cryptocurrencies on binance](Images/binance.jpg)
